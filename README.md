@@ -14,4 +14,8 @@ The following Python AI funnctionality is currently availabel within OL7-PYAI;
 * ...
 
 ## Auto build docker images
-A docker image is automatically build from the source available in this repository by leveraging hub.docker.com
+A docker image is automatically build from the source available in this repository by leveraging hub.docker.com and more details can be found at https://hub.docker.com/r/louwersj/ol7-pyai/ 
+
+## pull the docker image
+you can pull the docker image by executing the below command in Docker
+`docker pull louwersj/ol7-pyai`
