@@ -3,7 +3,12 @@ FROM oraclelinux:7-slim
 MAINTAINER Johan Louwers Capgemini version: 0.1
 
 
-#RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm &&\
+rpm -ivh https://rhel7.iuscommunity.org/ius-release.rpm &&\
+yum -y groupinstall development &&\
+yum -y install python36u python36u-pip python36u-devel 
+
 
 #ENV APACHE_RUN_USER www-data
 #ENV APACHE_RUN_GROUP www-data
