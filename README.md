@@ -3,9 +3,8 @@ OL7-PYAI is a Oracle Linux 7 based Python AI docker container which can act as t
 
 ## python version
 The following version of python is currently available within OL7-PYAI;
-* ...
-* ...
-* ...
+* Python 2.7.5
+* Python 3.6
 
 ## Python AI functionality
 The following Python AI funnctionality is currently availabel within OL7-PYAI;
